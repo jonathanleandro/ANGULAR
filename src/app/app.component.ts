@@ -14,4 +14,6 @@ export class AppComponent {
   userName = 'Joaquim';
 
   title = 'teoria';
+
+  
 }

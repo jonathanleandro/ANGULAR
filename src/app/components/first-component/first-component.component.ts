@@ -14,5 +14,4 @@ export class FirstComponentComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

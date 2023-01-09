@@ -1,4 +1,6 @@
-*{
+*,
+*::before
+*::before{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -12,4 +14,14 @@ body{
     border-bottom: 1px solid black;
     padding: 2em;
     margin-bottom: 1em;
+}
+
+:root{
+    --color-bg: white;
+    --color-text: black;
+}
+
+[data-theme="dark"]{
+    --color-bg: black;
+    --color-text: white;
 }
